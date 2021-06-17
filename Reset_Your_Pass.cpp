@@ -33,8 +33,8 @@ using namespace std;
 
 int main() 
 {
-	cout << "\t\t  * ************ Attention! ************* *" << endl;
-	cout << "\t\t  *                                       *" << endl;	
+    cout << "\t\t  * ************ Attention! ************* *" << endl;
+    cout << "\t\t  *                                       *" << endl;	
     cout << "\t\t  * First we need to verify your identity *" << endl;
     cout << "\t\t  *                                       *" << endl;
     cout << "\t\t  * ************************************* *" << endl << endl;
@@ -58,10 +58,10 @@ int main()
         
             /* I wanted to insert a function to generate a random 4 digit number to simulate the random code the user would receive, but unfortunately I don't know how to do that yet. For simplicity sake, I used an external random generator and just used that number as the value */ 
         cout << "\t\t  * *********************************** *" << endl;
-		cout << "\t\t  *                                     *" << endl;
+	cout << "\t\t  *                                     *" << endl;
         cout << "\t\t  * Please enter the code you received. *" << endl;
-		cout << "\t\t  *                                     *" << endl;
-		cout << "\t\t  * *********************************** *" << endl;
+	cout << "\t\t  *                                     *" << endl;
+	cout << "\t\t  * *********************************** *" << endl;
 		
         int UserCode; 
         cin >> UserCode;
@@ -73,10 +73,10 @@ int main()
                 cout << "Identity verified." << endl << endl;
                 
                 cout << "\t\t    **************************************" << endl;
-				cout << "\t\t    *                                    *" << endl;
-        		cout << "\t\t    ***   Please enter new password.   ***" << endl;
-				cout << "\t\t    *                                    *" << endl;
-				cout << "\t\t    **************************************" << endl;
+		cout << "\t\t    *                                    *" << endl;
+        	cout << "\t\t    ***   Please enter new password.   ***" << endl;
+		cout << "\t\t    *                                    *" << endl;
+		cout << "\t\t    **************************************" << endl;
                 
                 cout << "\n**Pay Attention**\nPassword can't contain spaces.\n";
                     
@@ -84,10 +84,10 @@ int main()
                  cin >> password1;
                  system("cls");
                  cout << "\t\t      ************************************ " << endl;
-				 cout << "\t\t                                           " << endl;
-        		 cout << "\t\t        Please enter new password again.   " << endl;
-				 cout << "\t\t                                           " << endl;
-				 cout << "\t\t      ************************************ " << endl;
+		 cout << "\t\t                                           " << endl;
+        	 cout << "\t\t        Please enter new password again.   " << endl;
+		 cout << "\t\t                                           " << endl;
+		 cout << "\t\t      ************************************ " << endl;
                 
                     
                  string password2;
@@ -138,10 +138,10 @@ int main()
         cout << "Please answer the following security questions to verify your identity." << endl << endl; 
 
         cout << "\t\t     **************************************** " << endl;
-		cout << "\t\t                                              " << endl;
+	cout << "\t\t                                              " << endl;
         cout << "\t\t     What was the name of your first teacher? " << endl;
-		cout << "\t\t                                              " << endl;
-		cout << "\t\t     **************************************** " << endl;
+	cout << "\t\t                                              " << endl;
+	cout << "\t\t     **************************************** " << endl;
         cout << "" << endl;
         
         string answer1 = "Reza";
@@ -158,10 +158,10 @@ int main()
         
         cout << "Your answer: " << answer1U << endl << endl;
         cout << "\t\t   *********************************************** " << endl;
-		cout << "\t\t                                                   " << endl;
+	cout << "\t\t                                                   " << endl;
         cout << "\t\t   What was the name of the street you grew up on? " << endl;
-		cout << "\t\t                                                   " << endl;
-		cout << "\t\t   *********************************************** " << endl;
+	cout << "\t\t                                                   " << endl;
+	cout << "\t\t   *********************************************** " << endl;
         cout << "" << endl;
         
         // For example Yaser street
@@ -176,13 +176,13 @@ int main()
         cout << "Your answer: " << answer2U << endl << endl;
         
         cout << "\t\t      *************************************** " << endl;
-		cout << "\t\t                                              " << endl;
+	cout << "\t\t                                              " << endl;
         cout << "\t\t      What is the name of your favorite book? " << endl;
-		cout << "\t\t                                              " << endl;
-		cout << "\t\t      *************************************** " << endl;
+	cout << "\t\t                                              " << endl;
+	cout << "\t\t      *************************************** " << endl;
         cout << "" << endl;
         
-		string answer3 = "The secret";
+	string answer3 = "The secret";
         
         string answer3U;
         
