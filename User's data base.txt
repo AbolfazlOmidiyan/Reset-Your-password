@@ -1,0 +1,36 @@
+                         
+                         *** User have 2 ways for identity ***
+
+___________________________________________________________________________________________
+                                
+                                "If user selected (y)"
+
+OTP SMS System will send message to user for Identification
+for example the OTP is: *** 7403 ***
+
+
+-------------------------------------------------------------------------------------------
+#Disposable or otp password applications
+1 - Identify robots from humans
+
+2 - Send the activation code and confirm the mobile number
+
+3 - Providing security for logging in to the user account
+
+4 - Send SMS or voice activation code
+
+5 - Use as a CAPTCHA
+-------------------------------------------------------------------------------------------
+
+                                "If user selected (n)"
+
+1-What was the name of your first teacher?
+fictional answer:  ** Reza **
+
+2-What was the name of the street you grew up on?
+fictional answer:  ** Yaser street **
+
+3-What is the name of your favorite book?
+fictional answer:  ** The secret **
+
+___________________________________________________________________________________________
